@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acme Corp Job Board</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="assets/logo.png" alt="Acme Corp Logo" class="logo" />
+      <div class="hero-text-block">
+        <div class="hero-titles">
+          <h1>Open Positions at Acme Corp</h1>
+          <p>Join our team of innovators.</p>
+        </div></div>
+        <!-- Classic Dark Mode Toggle -->
+        <div class="hero-toggle">
+          <span>Light Mode</span>
+          <label class="switch">
+            <input type="checkbox" id="themeToggle" />
+            <span class="slider round"></span>
+            
+          </label>
+        <span>Dark Mode</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter Section -->
+  <section class="filters">
+    <input type="text" id="searchInput" placeholder="Search job titles..." />
+    <select id="departmentFilter">
+      <option value="">All Departments</option>
+    </select>
+  </section>
+
+  <!-- Loader -->
+  <div id="loader" class="loader"></div>
+
+  <!-- Job Listings Section -->
+  <main id="jobList" class="job-listings"></main>
+
+  <!-- Job Details Modal -->
+  <div id="jobModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <span id="closeModal" class="close-btn" role="button" tabindex="0" aria-label="Close Modal">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <a href="#" id="applyLink" target="_blank" class="apply-btn">Apply Now</a>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

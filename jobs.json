@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "location": "Remote",
+    "description": "We're looking for a skilled frontend developer with experience in React.js and modern CSS."
+  },
+  {
+    "id": 2,
+    "title": "UX Designer",
+    "department": "Design",
+    "location": "Bangalore",
+    "description": "Design beautiful interfaces and delightful user experiences."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "department": "Engineering",
+    "location": "Remote",
+    "description": "We need a backend expert skilled in Node.js, Express, and databases like MongoDB or PostgreSQL."
+  },
+  {
+    "id": 4,
+    "title": "HR Specialist",
+    "department": "Human Resources",
+    "location": "Delhi",
+    "description": "Join our HR team to help recruit, onboard, and retain top talent across departments."
+  },
+  {
+    "id": 5,
+    "title": "Product Manager",
+    "department": "Product",
+    "location": "Mumbai",
+    "description": "Looking for a strategic thinker who can manage product life cycles and work closely with engineering/design."
+  },
+  {
+    "id": 6,
+    "title": "Marketing Analyst",
+    "department": "Marketing",
+    "location": "Remote",
+    "description": "Analyze trends, run campaigns, and help boost our digital presence using marketing tools and data."
+  }
+]
